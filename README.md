@@ -3,4 +3,7 @@ This is a work-in-progess project to model the periodic behavior of superimposed
 
 One solution to find sufficient parameter values is by using Evolutionary Algorithms. In this case, Differential Evolution (DE) is applied with parameters Population Size, Maximum Number of Generations, Mutation Rate and Crossing Over probability.
 
+![Scheme2](https://user-images.githubusercontent.com/56418155/154161445-821c6cc4-4b8d-49a9-9ff9-a6cba1c56f9f.png)
+
+
 ![Scheme](https://user-images.githubusercontent.com/56418155/154161251-8e432ef8-970a-4b1b-9e40-34779225dd02.png)
