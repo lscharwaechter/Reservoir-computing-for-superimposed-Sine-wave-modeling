@@ -5,5 +5,3 @@ One solution to find sufficient parameter values is by using Evolutionary Algori
 
 ![Scheme2](https://user-images.githubusercontent.com/56418155/154161445-821c6cc4-4b8d-49a9-9ff9-a6cba1c56f9f.png)
 
-
-![Scheme](https://user-images.githubusercontent.com/56418155/154161251-8e432ef8-970a-4b1b-9e40-34779225dd02.png)
