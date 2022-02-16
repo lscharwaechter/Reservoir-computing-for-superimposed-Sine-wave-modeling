@@ -11,15 +11,13 @@ def scaleMatrix(matrix, scalingFactor):
     '''
     Scales the entries of the input matrix 
     with the given scaling factor
-
     '''
     return matrix*scalingFactor
 
 def sparseMaker(matrix, sparseness):
     '''
     Sets the proportion of entries given by sparsness 
-    randomly to zero.
-
+    randomly to zero
     '''
     indices = np.random.choice(matrix.shape[0]*matrix.shape[1],
                                replace=False, 
