@@ -5,4 +5,4 @@ A further approach to find sufficient parameter values is by using Evolutionary 
 
 ![Scheme2](https://user-images.githubusercontent.com/56418155/154161445-821c6cc4-4b8d-49a9-9ff9-a6cba1c56f9f.png)
 
-In the plot above, a superimposed sine wave is generated as the target signal by summing up two sine waves with frequencies f1 = 1/5 and f2 = 1/2 and amplitudes a1 = ..., a2 = .... The figure on the right illustrates the Echo State Network with its weight matrices and the reservoir as a hidden, recurrent layer.
+In the plot above, a superimposed sine wave is generated as the target signal x^t by summing up two sine waves with frequencies f1 = 1/5 and f2 = 1/2 and amplitudes a1 = ..., a2 = .... The figure on the right illustrates the Echo State Network with its weight matrices and the reservoir as a hidden, recurrent layer.
