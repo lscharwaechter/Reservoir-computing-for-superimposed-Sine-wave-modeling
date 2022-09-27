@@ -30,7 +30,7 @@ class ESN():
         self.act_hk = np.zeros((self.n_output,steps))
         
         
-    def training(self, x, steps):
+    def train(self, x, steps):
         self.resetStates(x.shape[1])
         
         prevt = 0
