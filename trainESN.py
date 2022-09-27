@@ -52,8 +52,8 @@ signal = signal[np.newaxis,:]
 
 #############################
 
-T, Wout_new = ESN.training(signal, 700)
-prediction, NRMSE = ESN.testing(signal, T, Wout_new, 700, 300)
+T, Wout_new = ESN.train(signal, 700)
+prediction, NRMSE = ESN.predict(signal, T, Wout_new, 700, 300)
 
 print('NRMSE:',NRMSE)
 
