@@ -73,7 +73,7 @@ class ESN():
         
         return T, Wout_new
     
-    def testing(self, x, T, Wout_new, trainingSteps, testingSteps):
+    def predict(self, x, T, Wout_new, trainingSteps, testingSteps):
         
         # Start the Closed Loop with the last output of
         # the training procedure
