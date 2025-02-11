@@ -38,8 +38,8 @@ def initialize_ESN(n_input = 1, n_reservoir = 40, n_output = 1, scalingfactor = 
         )
 return ESN
 
-def create_signal(T1 = 5, T2 = 2, A1 = 0.9, A2 = 0.4):
-    t = np.arange(0, 1000, 1)
+def create_signal(T1 = 5, T2 = 2, A1 = 0.9, A2 = 0.4, timesteps = 1000):
+    t = np.arange(0, timesteps, 1)
     signal = A1*np.sin(t/T1)+A2*np.sin(t/T2)
     return signal[np.newaxis,:]
 
